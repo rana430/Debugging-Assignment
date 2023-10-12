@@ -1,0 +1,22 @@
+Used Commands
+
+g++ -g -o my_program matrix.cpp
+gdb my_program
+Break Matrix::multiply
+Break 44
+Run
+S
+Display result.data[i][j]
+
+
+Another way it contains cout for result.data[i][j] as I faced a problem tracing its value
+
+ g++ -g -o my_program matrix.cpp
+gdb my_program
+Break Matrix::multiply
+Break 44
+Run
+N
+N
+N
+N
